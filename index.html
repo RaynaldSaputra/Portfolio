@@ -8,6 +8,7 @@
     <title>Raynald Saputra</title>
     <link rel="stylesheet" href="stylesheet.css">
     <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 
@@ -39,25 +40,48 @@
                     </svg>
                     <span>Get in Touch</span>
                 </button>
+                <div class="social">
+                    <a href="https://www.facebook.com/ray.dc2">
+                        <div class="btn-facebook">
+                            <button class="button"><i class="fa fa-facebook"></i></button>
+                        </div>
+                    </a>
+                    <a href="https://www.instagram.com/raynald_saputra/">
+                        <div class="btn-instagram">
+                            <button class="button"><i class="fa fa-instagram"></i></button>
+                        </div>
+                    </a>
+                    <a href="mailto:raynaldsaputra25@gmail.com?subject=Mail from The Site">
+                        <div class="btn-email">
+                            <button class="button"><i class="fa fa-envelope"></i></button>
+                        </div>
+                    </a>
+                    <a href="https://www.linkedin.com/in/raynaldsaputra/">
+                        <div class="btn-linkedin">
+                            <button class="button"><i class="fa fa-linkedin"></i></button>
+                        </div>
+                    </a>
+                </div>
             </div>
         </div>
     </div>
     <div class="about">
         <div class="about-me">
-            <div class="desc">
-                <h1>About Me</h1>
-                <p>I'm Graduated from Electrical and Computer Engineering,
-                    Satya Wacana Christian University (UKSW) in 2022.
-                    Throughout my education, I established a strong foundation
-                    in electrical and computer engineering,
-                    especially in building a website based on HTML, and CSS.
-                    Possessed programming language skills such as C++, Python, JavaScript, Arduino and low level ones
-                    such as
-                    Assembly.
-                </p>
-            </div>
-            <div class="skill-bar">
-                <div class="contain">
+            <h1>About Me</h1>
+            <div class="about-me-content">
+                <div class="desc">
+                    <p>I'm Graduated from Electrical and Computer Engineering,
+                        Satya Wacana Christian University (UKSW) in 2022.
+                        Throughout my education, I established a strong foundation
+                        in electrical and computer engineering,
+                        especially in building a website based on HTML, and CSS.
+                        Possessed programming language skills such as C++, Python, JavaScript, Arduino and low level
+                        ones
+                        such as
+                        Assembly.
+                    </p>
+                </div>
+                <div class="skill-bar">
                     <div class="skills">
                         <div class="details">
                             <span>HTML</span>
@@ -79,16 +103,102 @@
                     <div class="skills">
                         <div class="details">
                             <span>Javascript</span>
-                            <span>72%</span>
+                            <span>60%</span>
                         </div>
                         <div class="bar">
                             <div id="js-bar"></div>
                         </div>
                     </div>
+                    <div class="skills">
+                        <div class="details">
+                            <span>C++</span>
+                            <span>78%</span>
+                        </div>
+                        <div class="bar">
+                            <div id="cpp-bar"></div>
+                        </div>
+                    </div>
+                    <div class="skills">
+                        <div class="details">
+                            <span>Python</span>
+                            <span>50%</span>
+                        </div>
+                        <div class="bar">
+                            <div id="py-bar"></div>
+                        </div>
+                    </div>
                 </div>
+            </div>
+            <div class="btn-download">
+                <a href="CV_RaynaldSaputra_Developer.docx" download="CV_RaynaldSaputra">
+                    <button class="btn"><i class="fa fa-download"></i> Download CV</button>
+                </a>
             </div>
         </div>
     </div>
+    <div class="portfolio">
+        <h1>Portfolio</h1>
+        <br />
+        <div class="album">
+            <div id="img1" onclick="albumCardOnclick('img1')" class="card">
+                <img src="port1.png" alt="test">
+            </div>
+            <div id="img2" onclick="albumCardOnclick('img2')" class="card">
+                <img src="duamusim.png" alt="test">
+            </div>
+            <div id="img3" onclick="albumCardOnclick('img3')" class="card">
+                <!-- <img src="test.jpg" alt="test"> -->
+            </div>
+        </div>
+        <a>View Portfolio</a>
+    </div>
+    <script>
+        function albumCardOnclick(data) {
+            var element = document.getElementById(data).className;
+            var listClass = ['img1', 'img2', 'img3']
+            listClass.forEach(_data => {
+                document.getElementById(_data).classList.remove("cardActive");
+                document.getElementById(_data).classList.add("card");
+            });
+
+            if (element === "cardActive") {
+                document.getElementById(data).classList.remove("cardActive");
+            }
+            else {
+                document.getElementById(data).classList.add("cardActive");
+                document.getElementById(data).classList.remove("card");
+            }
+        }
+    </script>
 </body>
+<footer>
+    <h1>
+        Let's Work Together
+    </h1>
+    <br />
+    <p>
+        I'm a freelancer. Thristy of experience and open to opportunities. Please feel free to cantact me.
+    </p>
+    <button class="btn">
+        <span>CONTACT ME</span>
+    </button>
+    <br />
+    <br />
+    <div class="line"></div>
+    <div class="social-media">
+        <div class="btn-facebook">
+            <button class="button"><i class="fa fa-facebook"></i></button>
+        </div>
+        <div class="btn-instagram">
+            <button class="button"><i class="fa fa-instagram"></i></button>
+        </div>
+        <div class="btn-email">
+            <button class="button"><i class="fa fa-envelope"></i></button>
+        </div>
+        <div class="btn-linkedin">
+            <button class="button"><i class="fa fa-linkedin"></i></button>
+        </div>
+    </div>
+</footer>
 
 </html>

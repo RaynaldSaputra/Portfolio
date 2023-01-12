@@ -1,0 +1,8 @@
+{
+    "editor.fastScrollSensitivity": 0,
+    "workbench.list.fastScrollSensitivity": 0,
+    "terminal.integrated.fastScrollSensitivity": 0,
+    "editor.scrollbar.scrollByPage": true,
+    "terminal.integrated.scrollback": 50,
+    "editor.mouseWheelScrollSensitivity": 1
+}
