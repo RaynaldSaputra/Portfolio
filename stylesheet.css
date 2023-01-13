@@ -357,7 +357,7 @@ svg {
 
 .portfolio .cardActive:hover::after {
     position: absolute;
-    content: "";
+    content: "asdasfhsadhfaskjdf";
     width: 100%;
     height: 50%;
 }
@@ -369,7 +369,7 @@ svg {
 
 .portfolio .cardActive::after {
     position: absolute;
-    content: "";
+    /* content: "ADSFAGssf"; */
     width: 100%;
     height: 0%;
     background-color: black;
@@ -389,7 +389,7 @@ svg {
 footer {
     color: white;
     background-color: #252525;
-    /* height: 40vh; */
+    height: 40vh;
 
     padding: 2rem;
     padding-top: 4rem;
