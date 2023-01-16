@@ -189,8 +189,9 @@ svg {
 }
 
 .about-me {
+    position: relative;
     padding-top: 60px;
-    padding-left: 300px;
+    left: 12%;
 }
 
 .about-me-content {
@@ -310,6 +311,8 @@ svg {
     gap: 1.3rem;
     padding-bottom: 0.1rem;
     padding-top: 3rem;
+    box-shadow: 10px 10px;
+    box-sizing: 10px 10px;
 }
 
 .portfolio a {
@@ -336,11 +339,14 @@ svg {
     position: relative;
 }
 
+.album img1 {}
+
 .portfolio .card {
     position: relative;
     width: 160px;
     height: 160px;
     transition: all .3s;
+    box-shadow: 5px 5px;
 }
 
 .portfolio .card:hover {
