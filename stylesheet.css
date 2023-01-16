@@ -65,6 +65,14 @@
     gap: 80px;
 }
 
+span.menu-icon {
+    color: white;
+    float: right;
+    font-size: 25px;
+    display: none;
+    padding: 21px 0;
+}
+
 .container {
     width: 200px;
     height: 200px;
@@ -135,8 +143,8 @@ svg {
 }
 
 .button {
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: 30px;
     cursor: pointer;
     background: transparent;
     border: 1px solid #C69749;
@@ -181,7 +189,7 @@ svg {
 
 .about-me {
     padding-top: 60px;
-    padding-left: 160px;
+    padding-left: 300px;
 }
 
 .about-me-content {
@@ -357,9 +365,12 @@ svg {
 
 .portfolio .cardActive:hover::after {
     position: absolute;
-    content: "asdasfhsadhfaskjdf";
+    content: "duamusim.id";
     width: 100%;
     height: 50%;
+    color: white;
+    text-align: center;
+    font-size: 0.5rem;
 }
 
 .portfolio .cardActive:hover img {
@@ -369,7 +380,7 @@ svg {
 
 .portfolio .cardActive::after {
     position: absolute;
-    /* content: "ADSFAGssf"; */
+    content: "";
     width: 100%;
     height: 0%;
     background-color: black;
@@ -386,11 +397,13 @@ svg {
 }
 
 
-footer {
+.footer {
     color: white;
     background-color: #252525;
-    height: 40vh;
+    height: 54vh;
+}
 
+.top-foot {
     padding: 2rem;
     padding-top: 4rem;
 
@@ -399,14 +412,13 @@ footer {
 
     justify-content: center;
     align-items: center;
-
 }
 
-footer p {
+.top-foot p {
     color: #D9D9D9;
 }
 
-footer .line {
+.top-foot .line {
     width: 80%;
     border: 1px solid #3E3E3E;
 }
@@ -416,5 +428,5 @@ footer .line {
     flex-direction: row;
     justify-content: flex-end;
     gap: 10px;
-    padding-left: 800px;
+    width: 80%;
 }

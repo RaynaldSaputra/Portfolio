@@ -1,0 +1,169 @@
+/*Untuk Smartphone*/
+@media all and (max-width:670px) {
+    .home {
+        padding-left: 20px;
+        height: 60vh;
+        width: 100%;
+    }
+
+    .logo {
+        font-size: 8px;
+    }
+
+    .navbarOption {
+        display: none;
+    }
+
+    span.menu-icon {
+        display: none;
+    }
+
+    .container {
+        width: 100%;
+        padding: 0;
+        left: 60%;
+        top: 20%;
+    }
+
+    .intro h1 {
+        font-size: 16px;
+    }
+
+    .intro p {
+        font-size: 8px;
+    }
+
+    svg {
+        top: 70px;
+    }
+
+    .button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about {
+        padding-left: 40px;
+    }
+
+    .about-me-content {
+        display: flex;
+        flex-direction: column;
+        width: fit-content;
+    }
+
+    .about-me {
+        padding-left: 10px;
+    }
+
+    .desc {
+        width: 100%;
+    }
+
+    .desc p {
+        font-size: 12px;
+    }
+
+    .skill-bar {
+        width: 70%;
+        padding: 0;
+    }
+
+    .details {
+        padding-top: 10px;
+    }
+
+    .details span {
+        font-size: 10px;
+    }
+
+    .portfolio {
+        /* padding-left: 50px; */
+        height: 85vh;
+        display: flex;
+        flex-direction: column;
+        /* padding-bottom: 0px; */
+    }
+
+    .portfolio .cardActive {
+        width: 100px;
+        height: 100px;
+    }
+
+    .footer {
+        margin-bottom: 25px;
+    }
+
+    .top-foot {
+        font-size: 8px;
+        /* padding: 0; */
+        padding-top: 20px;
+    }
+
+    .btn {
+        height: 40px;
+        width: 100px;
+    }
+
+    .btn span {
+        font-size: 8px;
+    }
+
+    .button {
+        width: 25px;
+        height: 25px;
+        border-radius: 5px;
+    }
+
+    .social-media {
+        width: 80%;
+    }
+
+    .social-footer {
+        padding: 0;
+    }
+}
+
+/*Untuk Tablet*/
+@media all and (max-width:1000px) {
+    .logo {
+        font-size: 16px;
+    }
+
+    .navBarOption ul {
+        gap: 30px;
+    }
+
+    .nav-bar {
+        font-size: 8px;
+    }
+
+    svg {
+        top: 140px;
+    }
+
+    .container {
+        left: 25%;
+    }
+
+    .intro h1 {
+        font-size: 40px;
+    }
+
+    .about-me {
+        padding: 0;
+        padding-left: 13%;
+        padding-top: 25px;
+    }
+
+    .desc {
+        width: 50%;
+    }
+
+    .portfolio {
+        padding: 0;
+        padding-top: 20px;
+        height: 50vh;
+    }
+}
