@@ -1,9 +1,7 @@
 /*Untuk Smartphone*/
 @media all and (max-width:670px) {
     .home {
-        padding-left: 20px;
         height: 60vh;
-        width: 100%;
     }
 
     .logo {
@@ -19,10 +17,10 @@
     }
 
     .container {
-        width: 100%;
-        padding: 0;
-        left: 60%;
+        /* left: 100%; */
+        left: 40%;
         top: 20%;
+        padding-left: 30px;
     }
 
     .intro h1 {
@@ -80,7 +78,7 @@
 
     .portfolio {
         /* padding-left: 50px; */
-        height: 85vh;
+        height: 100vh;
         display: flex;
         flex-direction: column;
         /* padding-bottom: 0px; */
@@ -126,9 +124,9 @@
 }
 
 /*Untuk Tablet*/
-@media all and (max-width:1000px) {
+/* @media all and (max-width:1000px) {
     .logo {
-        font-size: 16px;
+        font-size: 8px;
     }
 
     .navBarOption ul {
@@ -148,12 +146,12 @@
     }
 
     .intro h1 {
-        font-size: 40px;
+        font-size: 24px;
     }
 
     .about-me {
         padding: 0;
-        padding-left: 13%;
+        padding-left: 10%;
         padding-top: 25px;
     }
 
@@ -166,4 +164,4 @@
         padding-top: 20px;
         height: 50vh;
     }
-}
+} */
