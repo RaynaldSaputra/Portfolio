@@ -184,6 +184,18 @@ svg {
     color: white;
 }
 
+.image {
+    position: relative;
+    left: 550px;
+    bottom: 0px;
+    top: 124px;
+    opacity: 90%;
+}
+
+.image img {
+    height: 85vh;
+}
+
 .about {
     padding-bottom: 80px;
 }

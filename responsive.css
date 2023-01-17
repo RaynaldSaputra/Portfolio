@@ -8,19 +8,19 @@
         font-size: 8px;
     }
 
-    .navbarOption {
+    .navBarOption {
         display: none;
     }
 
     span.menu-icon {
-        display: none;
+        display: block;
     }
 
     .container {
         /* left: 100%; */
-        left: 40%;
+        /* left: 100px; */
         top: 20%;
-        padding-left: 30px;
+        padding-left: 100px;
     }
 
     .intro h1 {
@@ -32,7 +32,9 @@
     }
 
     svg {
-        top: 70px;
+        /* top: 55px; */
+        width: 100px;
+        height: 70px;
     }
 
     .button {
@@ -41,8 +43,21 @@
         align-items: center;
     }
 
+    .image {
+        position: absolute;
+        left: 150px;
+        z-index: -1;
+        /* bottom: 0; */
+        top: 15px;
+        opacity: 60%;
+    }
+
+    .image img {
+        height: 50vh;
+    }
+
     .about {
-        padding-left: 40px;
+        padding-left: 10px;
     }
 
     .about-me-content {
@@ -52,11 +67,11 @@
     }
 
     .about-me {
-        padding-left: 10px;
+        /* padding-left: 10px; */
     }
 
     .desc {
-        width: 100%;
+        width: 70%;
     }
 
     .desc p {
