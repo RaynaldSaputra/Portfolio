@@ -17,24 +17,32 @@
     }
 
     .container {
-        /* left: 100%; */
-        /* left: 100px; */
         top: 20%;
         padding-left: 100px;
     }
 
+    .intro {
+        width: 100%;
+    }
+
+    .intro span {
+        width: 500px;
+    }
+
     .intro h1 {
         font-size: 16px;
+        /* width: 100px; */
     }
 
     .intro p {
         font-size: 8px;
+        /* width: 100px; */
     }
 
     svg {
-        /* top: 55px; */
+        top: 800px;
         width: 100px;
-        height: 70px;
+        height: 50px;
     }
 
     .button {
@@ -57,21 +65,28 @@
     }
 
     .about {
-        padding-left: 10px;
+        padding-right: 100px;
     }
 
     .about-me-content {
         display: flex;
         flex-direction: column;
-        width: fit-content;
+        ;
     }
 
     .about-me {
-        /* padding-left: 10px; */
+        padding: 0;
+        padding-left: 60px;
+        padding-top: 20px;
+        width: 100%;
+    }
+
+    .about-me h1 {
+        font-size: 24px;
     }
 
     .desc {
-        width: 70%;
+        width: 100%;
     }
 
     .desc p {
