@@ -87,7 +87,7 @@ span.menu-icon {
 }
 
 .intro {
-    width: 800px;
+    width: 500px;
     height: 10px;
     position: absolute;
     color: white;
@@ -188,7 +188,7 @@ svg {
     position: relative;
     left: 550px;
     bottom: 0px;
-    top: 124px;
+    top: 116px;
     opacity: 90%;
 }
 
@@ -203,7 +203,7 @@ svg {
 .about-me {
     position: relative;
     padding-top: 60px;
-    left: 12%;
+    padding-left: 150px;
 }
 
 .about-me-content {
